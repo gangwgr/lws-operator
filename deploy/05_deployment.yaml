@@ -12,6 +12,7 @@ spec:
     metadata:
       labels:
         name: openshift-lws-operator
+        app.openshift.io/name: lws
     spec:
       securityContext:
         runAsNonRoot: true
